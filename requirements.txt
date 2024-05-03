@@ -2,3 +2,10 @@ datasets
 torch
 pandas
 numpy
+trl
+transformers
+peft
+wandb
+bitsandbytes
+rouge-score
+accelerate
