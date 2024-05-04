@@ -33,6 +33,8 @@ The baseline module contains scripts to generate completions on the cleaned data
 Training contains 3 identical scripts with one different parameter, learning rate. The details of why are described in the report. These scripts load the Phi-3 (or any other) model using `transformers` using a `bitsandbytes` config (for qLoRA), and then runs the fine tuning using a mix of `peft`, `trl`'s `SFTTrainer` and `transformers`' `TrainingArguments`. The same evaluation scripts are run at the end. Training and results use `wandb`. 
 
 
+See details in "Implementation" section of report.
+
 #### Packages used
 
 Refer to the in the `requirements.txt`.
