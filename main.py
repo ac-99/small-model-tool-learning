@@ -29,3 +29,5 @@
 # If you are not able to finish a task, fill the corresponding variable with 'TBD'. For example:
 # acc_A_train = 'TBD'
 # acc_B_test = 'TBD'
+
+raise ValueError("This code cannot be run from a single script due to resources constraints! See README.md for details")
