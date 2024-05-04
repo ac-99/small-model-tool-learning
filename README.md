@@ -14,6 +14,8 @@ This repo contains 3 primary modules: `data_cleaning`, `baseline`, `training`.
 
 If run locally, the evaluation scripts would all be in their own folder `evals` so that there was no repeated code.
 
+Finally, the code is documented in a way to reduce repetition. See the `README.md` in each folder for details.
+
 #### Module description
 
 A description of the modules are below; more details can be found in the report. Any modules which are non-standard in Colaboratory are included as `!pip install [package]` in the `.ipynb` files:
